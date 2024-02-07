@@ -45,3 +45,20 @@ airflow users create \
 ### 해당 이름이 들어간 프로세스 전부 종료
 - sudo pkill -f [이름] 
 
+### docker 일괄적으로 종료
+- docker stop $(docker ps -a -q) : a : 모든 컨테이너 검색, q :아이디만 표시
+
+### airflow home
+- cd ~/airflow
+- dags 폴더 생성
+
+### dags에 있는 파일 찾기 
+- find / -name "dataset_consumes_1.py"
+- find / -name "dataset_consumes_1.py" 2>/dev/null
+
+### dag 생성
+
+- cd ~/airflow/dags 
+- vim encore_01.py
+- 코드 작성
+
