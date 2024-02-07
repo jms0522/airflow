@@ -61,4 +61,5 @@ airflow users create \
 - cd ~/airflow/dags 
 - vim encore_01.py
 - 코드 작성
+- 사람인에서 it 직무를 가져오는 코드 (saramin.py)에 있음.
 
